@@ -2,17 +2,16 @@
   "container": {
     "type": "DOCKER",
     "docker": {
-	  "image": "nginx",
+    "image": "nginx",
       "network": "BRIDGE",
       "portMappings": [
         { "containerPort": 80, "hostPort": 0, "servicePort": 80, "protocol": "tcp" }
       ]
     }
   },
-  "id": "nginx",
+  "id": "portal",
   "instances": 1,
   "cpus": 0.25,
-  "mem": 32,
+  "mem": 16,
   "uris": []
 }
-
